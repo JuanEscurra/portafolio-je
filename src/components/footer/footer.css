@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+
+#map {
+    width: 100%;
+}
+
+.footer__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer__title {
+    margin: 0px;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0 30px;
+}
+
+.footer__item i{
+    font-size: 40px;
+    color: white;
+    transition: transform 0.5s;
+}
+
+.footer__item i:hover {
+    transform: scale(1.2);
+}
+
+
+@media(max-width: 820px) {
+    .footer {
+        margin-bottom: 70px;
+    }
+}

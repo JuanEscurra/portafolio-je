@@ -1,0 +1,32 @@
+.card {
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 9px 13px 43px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 9px 13px 43px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 9px 13px 43px 5px rgba(0,0,0,0.5);
+    
+    flex-basis: 200px;
+    flex-grow: 1;
+
+    border-radius: 10px;
+    height: 290px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card__list {
+    padding: 0;
+}

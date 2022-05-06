@@ -1,0 +1,41 @@
+
+#habilidades {
+    width: calc(100% - 20vw);
+    padding: 35px 10vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.skills__message {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.skills__title {
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    margin: 35px 0;
+}
+
+.skills__description {
+    text-align: justify;
+
+}
+
+.skills__categories {
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 5%;
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+
+
